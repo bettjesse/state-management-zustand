@@ -1,7 +1,7 @@
 import React from 'react'
 import CourseForm from './components/CourseForm'
 import "./App.css"
-import CourseList from './components/CourseList'
+// import CourseList from './components/CourseList'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
 My course list
       </h1>
 <CourseForm/>
-<CourseList/>
+{/* <CourseList/> */}
 
     </div>
   )
