@@ -29,8 +29,8 @@ const CourseForm = () => {
         }}
         className="form-input" />
         <button 
-        onClick={
-            handleCourseSubmit
+        onClick={ ()=>{  handleCourseSubmit()}
+          
         }
         className="form-submit-btn">
             Add Course

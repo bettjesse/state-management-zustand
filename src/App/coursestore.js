@@ -20,9 +20,9 @@ const coureStore = (set) => (
         },
         //toggleCourse action
         toggleCourseStatus: (courseId)=> {
-            set(state=>{
-                courses:state.courses.map(course=> course.id=== courseId ?{...course,completed: !course.completed} :course)
-            })
+            set(state=>({
+                courses: state.courses.map(course=> course.id=== courseId ?{...course,completed: !course.completed} :course)
+            }))
         }
     }
 )
